@@ -21,7 +21,7 @@ var work = function() {
     document.getElementById("demo").innerHTML = akan_name;
 }
 
-function getGender(){
+function getGender() {
     var gender;
     var male = document.getElementById("male");
     var female = document.getElementById("female");
