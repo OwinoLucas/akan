@@ -3,7 +3,7 @@ var work = function() {
     var dt = get.split("-");
     var d = new Date();
     d.setFullYear(parseInt(dt[0]));
-    d.setFullMonth(parseInt(dt[1])-1);
+    d.setMonth(parseInt(dt[1])-1);
     d.setDate(parseInt(dt[2]));
     var date =d.getDay();
     document.getElementById("demo").innerHTML = date;
@@ -21,4 +21,17 @@ var work = function() {
     document.getElementById("demo").innerHTML = akan_name;
 }
 
-function getGender(){}
+function getGender(){
+    var gender;
+    var male = document.getElementById("male");
+    var female = document.getElementById("female");
+    if (male.checked === true){
+        //alert("male");
+        gender = "male";
+    }
+    else if (female.checked === true){
+        //alert("female");
+        gender = "female";
+    }
+    return gender;
+}
