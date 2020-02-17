@@ -18,9 +18,12 @@ var work = function() {
         akan_name = male_names[date];
         alert("your akan name is " + akan_name + " you were born on a " + days);
     }
+    else if (getGender() == "female"){
+        akan_name = female_names[date] 
+        alert("Your akan nam ==e is " + akan_nam  + " you were born on a " + days);
+    }
     else{
-        akan_name = female_names[date];
-        alert("Your akan name is " + akan_nam  + " you were born on a " + days);
+        alert("Input valid content");
     }
 }
 
