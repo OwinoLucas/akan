@@ -14,14 +14,15 @@ var work = function() {
     var akan_name = "";
     if(getGender() == "male"){
         akan_name = male_names[date];
+        alert("your akan name is " + akan_name + "you were born on a " + [date]);
     }
     else{
         akan_name = female_names[date];
+        alert("Your akan name is " + akan_name + "you were born on a " + [date]);
     }
-    document.getElementById("demo").innerHTML = akan_name;
 }
 
-function getGender() {
+function getGender() { 
     var gender;
     var male = document.getElementById("male");
     var female = document.getElementById("female");
