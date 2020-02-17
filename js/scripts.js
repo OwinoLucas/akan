@@ -11,16 +11,18 @@ var work = function() {
     var female_names = ["Akosua", "Adwoa", "Abenna", "Akua", "Yaa", "Afua", "Ama"];
     var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-    var days = day[date - 1];
+    var males = male_names[date];
+    var days = day[date];
 
-    var akan_name = "";
+    var females = female_names[date];
+    var days = day[date];
+
     if(getGender() == "male"){
         akan_name = male_names[date];
-        alert("your akan name is " + akan_name + " you were born on a " + days);
-    }
-    else if (getGender() == "female"){
+        alert("your akan name is " + males + " you were born on a " + days);
+    } else if (getGender() == "female"){
         akan_name = female_names[date] 
-        alert("Your akan nam ==e is " + akan_nam  + " you were born on a " + days);
+        alert("Your akan name is " + females  + " you were born on a " + days);
     }
     else{
         alert("Input valid content");
