@@ -6,7 +6,6 @@ var work = function() {
     d.setMonth(parseInt(dt[1])-1);
     d.setDate(parseInt(dt[2]));
     var date =d.getDay();
-    document.getElementById("demo").innerHTML = date;
 
     var male_names = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var female_names = ["Akosua", "Adwoa", "Abenna", "Akua", "Yaa", "Afua", "Ama"];
@@ -17,11 +16,11 @@ var work = function() {
     var akan_name = "";
     if(getGender() == "male"){
         akan_name = male_names[date];
-        alert("your akan name is " + akan_name + "you were born on a " + days);
+        alert("your akan name is " + akan_name + " you were born on a " + days);
     }
     else{
         akan_name = female_names[date];
-        alert("Your akan name is " + akan_name + "you were born on a " + days);
+        alert("Your akan name is " + akan_nam  + " you were born on a " + days);
     }
 }
 
