@@ -22,8 +22,8 @@ It will generate user Akan name.
 * Contact information.
 * License and Copyright information.
 ## Link to live site
-## License
 [https://owinolucas.github.io/akan/](link)
+## License
 MIT License
 
 Copyright (c) [2020] [Lucas Otieno]
