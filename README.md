@@ -5,6 +5,13 @@ This project displays a website that will workout your day of birth if you;
 * Enter day of birth
 * Enter gender
 It will generate user Akan name.
+## Setup Instructions
+* The project uses one or more javascript functions.
+* Appropriate control flows and logical operators are used in the project.
+* The project makes use of one or more arrays in javascript.
+* The project uses a  HTML input to collect user data.
+* The project uses a custom CSS stylesheet that incorporates cascading, box model and floats.
+* The project works as expected, achieving the functionality required.
 ## Technical requirements
 * Project name.
 * Project description.
@@ -16,6 +23,7 @@ It will generate user Akan name.
 * License and Copyright information.
 ## Link to live site
 ## License
+[https://owinolucas.github.io/akan/](link)
 MIT License
 
 Copyright (c) [2020] [Lucas Otieno]
