@@ -6,7 +6,7 @@ var work = function() {
     d.setMonth(parseInt(dt[1])-1);
     d.setDate(parseInt(dt[2]));
     var date =d.getDay();
-    document.getElementById("demo").innerHTML = dategit ;
+    document.getElementById("demo").innerHTML = date;
 
     var male_names = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var female_names = ["Akosua", "Adwoa", "Abenna", "Akua", "Yaa", "Afua", "Ama"];
